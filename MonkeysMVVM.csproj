@@ -53,6 +53,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\MonkeysView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ShowMonkeysByLocationView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
